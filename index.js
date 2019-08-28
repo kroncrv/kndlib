@@ -4,7 +4,7 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _audioPlayer = require('./audio-player.js');
+var _audioPlayer = require('./lib/audio-player.js');
 
 Object.defineProperty(exports, 'AudioPlayer', {
     enumerable: true,
@@ -13,7 +13,7 @@ Object.defineProperty(exports, 'AudioPlayer', {
     }
 });
 
-var _soundManager = require('./sound-manager.js');
+var _soundManager = require('./lib/sound-manager.js');
 
 Object.defineProperty(exports, 'SoundManager', {
     enumerable: true,
@@ -22,7 +22,7 @@ Object.defineProperty(exports, 'SoundManager', {
     }
 });
 
-var _tracker = require('./tracker.js');
+var _tracker = require('./lib/tracker.js');
 
 Object.defineProperty(exports, 'Tracker', {
     enumerable: true,
@@ -31,7 +31,7 @@ Object.defineProperty(exports, 'Tracker', {
     }
 });
 
-var _math = require('./math.js');
+var _math = require('./lib/math.js');
 
 Object.defineProperty(exports, 'daysBetween', {
     enumerable: true,
@@ -70,7 +70,7 @@ Object.defineProperty(exports, 'zeroPad', {
     }
 });
 
-var _dom = require('./dom.js');
+var _dom = require('./lib/dom.js');
 
 Object.defineProperty(exports, '$', {
     enumerable: true,
@@ -91,7 +91,7 @@ Object.defineProperty(exports, 'debounce', {
     }
 });
 
-var _http = require('./http.js');
+var _http = require('./lib/http.js');
 
 Object.defineProperty(exports, 'loadJsonData', {
     enumerable: true,
