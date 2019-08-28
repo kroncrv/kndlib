@@ -1,7 +1,7 @@
 // Generic utilities and classes
-export { AudioPlayer } from './audio-player.js';
-export { SoundManager } from './sound-manager.js';
-export { Tracker } from './tracker.js';
+export { AudioPlayer } from './lib/audio-player.js';
+export { SoundManager } from './lib/sound-manager.js';
+export { Tracker } from './lib/tracker.js';
 
 export {
     daysBetween,
@@ -10,14 +10,14 @@ export {
     lerp,
     numberWithCommas,
     zeroPad
-} from './math.js';
+} from './lib/math.js';
 
 export {
     $,
     $$,
     debounce
-} from './dom.js';
+} from './lib/dom.js';
 
 export {
     loadJsonData
-} from './http.js';
+} from './lib/http.js';

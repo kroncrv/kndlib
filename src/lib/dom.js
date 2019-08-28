@@ -6,7 +6,7 @@ export function $$(selector) {
     return Array.from(document.querySelectorAll(selector));
 }
 
-export default function debounce(fn, wait) {
+export function debounce(fn, wait) {
     let timer = null;
 
     return function() {
@@ -15,6 +15,6 @@ export default function debounce(fn, wait) {
         timer = setTimeout(() => {
             fn()
             timer = null;
-        },wait);
+        }, wait);
     }
 }
