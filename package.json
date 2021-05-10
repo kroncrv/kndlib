@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "archieml": "^0.4.2",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "node-fetch": "^2.6.0",
     "read-excel-file": "^4.0.2"
   }
